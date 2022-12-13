@@ -13,7 +13,7 @@ function DesignContent() {
 				{designPhotos.map((src, index) => {
           
 					return <img
-						className={(index === 9 || index === 10 || index === 11) ? 'col-4 p-0 m-0 m-md-1 p-md-1 image-w-sm': 'col-4 p-0 m-0 m-md-1 p-md-1 image' }
+						className={(index === 9 || index === 10 || index === 11) ? 'col-4 p-0 m-0 m-md-1 p-md-1 design-image-w-sm': 'col-4 p-0 m-0 m-md-1 p-md-1 design-image' }
 						key={index}
 						src={src}
 						alt={'Loading...'}
