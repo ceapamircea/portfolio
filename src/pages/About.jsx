@@ -5,10 +5,10 @@ import './About.css';
 
 function About() {
 	return (
-		<>
+		<div style={{minHeight: '100vh'}} className='d-flex flex-column justify-content-between'>
 			<Header />
-			<div className='d-flex flex-column justify-content-between'>
-				<div className='container my-4'>
+			<div>
+				<div className='container my-4 d-flex flex-column align-items-center justify-content-center'>
 					<div className='row'>
 						<div className='col-12 col-xl-4'>
 							<div className='py-2'>
@@ -59,9 +59,9 @@ function About() {
 						</div>
 					</div>
 				</div>
-				<Footer />
 			</div>
-		</>    
+			<Footer />
+		</div>    
    
 	);
 }
