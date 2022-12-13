@@ -16,7 +16,8 @@ function LogosContent() {
 						style={(index === 4) ? { width: '460px' } : { width: '350px' }}
 						key={index}
 						src={src}
-						alt="logos" />;
+						alt="logos"
+						loading={'lazy'}/>;
 				})}</div>
 
 		</div>

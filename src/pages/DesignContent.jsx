@@ -17,6 +17,7 @@ function DesignContent() {
 						key={index}
 						src={src}
 						alt={'Loading...'}
+						loading={'lazy'}
 					/>;
 				})}</div>
 
