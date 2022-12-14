@@ -5,7 +5,7 @@ import './About.css';
 
 function About() {
 	return (
-		<div style={{minHeight: '100vh'}} className='d-flex flex-column justify-content-between'>
+		<div className='d-flex flex-column justify-content-between about-container'>
 			<Header />
 			<div>
 				<div className='container my-4 d-flex flex-column align-items-center justify-content-center'>

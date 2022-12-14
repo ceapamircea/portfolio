@@ -3,3 +3,7 @@
         height:550px;
     }
 }
+
+.about-container{
+    min-height: 100vh;
+}

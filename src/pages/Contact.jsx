@@ -25,13 +25,19 @@ function Contact() {
 						</div>
 						<div className='text-truncate'>
 							<img src={artStationIcon} className='px-1 text-truncate' style={{ width: '39px' }} alt="email-icon" />
-							<a className='text-truncate' href="https://www.artstation.com/mirceaceapa9" style={{ textDecoration: 'none' }}> https://www.artstation.com/mirceaceapa9</a>
+							<a
+								className='text-truncate'
+								href="https://www.artstation.com/mirceaceapa9"
+								style={{ textDecoration: 'none' }}
+							>
+                                https://www.artstation.com/mirceaceapa9
+							</a>
 						</div>
 					</div>
 				</div>
-
-            
-			</div><Footer /></div>
+			</div>
+			<Footer />
+		</div>
 	);
 }
 

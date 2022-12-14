@@ -2,25 +2,105 @@ import React from 'react';
 import './DesignContent.css';
 
 
-const designPhotos = [];
-for (let i = 1; i < 16; i += 1) {
-	designPhotos.push(`https://github.com/stereaam/portfolio-ceapamircea/blob/master/public/design/design-${i}.jpg?raw=true`);
-}
 function DesignContent() {
 	return (
 		<div className='container'>
 			<div className='row align-items-center justify-content-center pt-2'>
-				{designPhotos.map((src, index) => {
-          
-					return <img
-						className={(index === 9 || index === 10 || index === 11) ? 'col-4 p-0 m-0 m-md-1 p-md-1 design-image-w-sm': 'col-4 p-0 m-0 m-md-1 p-md-1 design-image' }
-						key={index}
-						src={src}
-						alt={'Loading...'}
-						loading={'lazy'}
-					/>;
-				})}</div>
-
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
+					src='https://i.imgur.com/t8MKwzL.jpg'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
+					src='https://i.imgur.com/VtMZTYL.jpg'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
+					src='https://i.imgur.com/tbJfYuH.jpg'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+        
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
+					src='https://i.imgur.com/QW8USRD.jpg'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
+					src='https://i.imgur.com/bZMQvCx.jpg'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
+					src='https://i.imgur.com/D4Cvnii.jpg'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+        
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
+					src='https://i.imgur.com/81mfjmp.jpg'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
+					src='https://i.imgur.com/hR2nLSl.jpg'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
+					src='https://i.imgur.com/VLqCoCH.jpg'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+        
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image-w-sm'}
+					src='https://i.imgur.com/LUWEDhb.jpg'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image-w-sm'}
+					src='https://i.imgur.com/rNVvIA4.jpg'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image-w-sm'}
+					src='https://i.imgur.com/2obXLQb.jpg'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+        
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
+					src='https://i.imgur.com/VbpUDVN.png'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
+					src='https://i.imgur.com/66DziAc.png'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+				<img
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
+					src='https://i.imgur.com/f6lzUEj.png'
+					alt='Loading'
+					loading={'lazy'}
+				/>
+			</div>
 		</div>
 	);
 }

@@ -3,7 +3,7 @@ import Design from './Design';
 import Funktastika from './Funktastika';
 import Application from './Application';
 import Logos from './Logos';
-import {  Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 function Home() {
 	return (

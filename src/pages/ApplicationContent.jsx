@@ -1,29 +1,77 @@
 import React from 'react';
-const applicationPhotos = [];
-const applicationVideos = [];
-for (let i = 1; i <10; i += 1) {
-	if(i>5){
-		applicationVideos.push(`https://github.com/stereaam/portfolio-ceapamircea/blob/master/public/application/application-${i}.mp4?raw=true`);
-	} else {
-		applicationPhotos.push(`https://github.com/stereaam/portfolio-ceapamircea/blob/master/public/application/application-${i}.jpg?raw=true`);
-	}
-}
 
 function ApplicationContent() {
 	return (
 		<div className='container'>
 			<div className='row align-items-center justify-content-center pt-2'>
-				{applicationPhotos.map((src, index) => {
-					return <img className='col-6 p-0 m-0 m-md-1 p-md-1' style={(index === 0) ? { width: '1000px' } : { width: '500px' }} key={index} src={src} alt="application" loading={'lazy'} />;
-				})}
-
-				{applicationVideos.map((src, index) => {
-					return <video controls className='col-6 p-0 m-0 m-md-1 p-md-1' style={{ width: '500px' }}
-						key={index} src={src} alt="application" />;
-				})}
-
+				<img
+					className='col-6 p-0 m-0 m-md-1 p-md-1'
+					style={{ width: '1000px' }}
+					src='https://i.imgur.com/n2wODIB.jpeg'
+					alt="Loading"
+					loading={'lazy'}
+				/>
+				<img
+					className='col-6 p-0 m-0 m-md-1 p-md-1'
+					style={{ width: '500px' }}
+					src='https://i.imgur.com/HyFecVK.jpeg'
+					alt="Loading"
+					loading={'lazy'}
+				/>
+				<img
+					className='col-6 p-0 m-0 m-md-1 p-md-1'
+					style={{ width: '500px' }}
+					src='https://i.imgur.com/cPtxFfD.jpeg'
+					alt="Loading"
+					loading={'lazy'}
+				/>
+            
+				<img
+					className='col-6 p-0 m-0 m-md-1 p-md-1'
+					style={{ width: '500px' }}
+					src='https://i.imgur.com/pn7U9pD.jpeg'
+					alt="Loading"
+					loading={'lazy'}
+				/>
+            
+				<img
+					className='col-6 p-0 m-0 m-md-1 p-md-1'
+					style={{ width: '500px' }}
+					src='https://i.imgur.com/HyFecVK.jpeg'
+					alt="Loading"
+					loading={'lazy'}
+				/>
+				<video
+					controls
+					className='col-6 p-0 m-0 m-md-1 p-md-1'
+					style={{ width: '500px' }}
+					src='https://i.imgur.com/NzFeSvD.mp4'
+					alt="Loading"
+				/>
+				<video
+					controls
+					className='col-6 p-0 m-0 m-md-1 p-md-1'
+					style={{ width: '500px' }}
+					src='https://i.imgur.com/TaEGVdt.mp4'
+					alt="Loading"
+				/>
+				<video
+					controls
+					className='col-6 p-0 m-0 m-md-1 p-md-1'
+					style={{ width: '500px' }}
+					src='https://i.imgur.com/Lavi20M.mp4'
+					alt="Loading"
+					poster='https://i.imgur.com/BoruBbX.png'
+				/>
+				<video
+					controls
+					className='col-6 p-0 m-0 m-md-1 p-md-1'
+					style={{ width: '500px' }}
+					src='https://i.imgur.com/8lCglm9.mp4'
+					alt="Loading"
+					poster='https://i.imgur.com/ri2Zumf.png'
+				/>
 			</div>
-
 		</div>
 	);
 }

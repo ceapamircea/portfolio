@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import './Header.css';
 import menuIcon from '../assets/menu-icon.png';
 import { Link } from 'react-router-dom';
+import './Header.css';
 
 function Header() {
 	const [navbarHeight, setNavbarHeight] = useState('0%');
@@ -10,7 +10,7 @@ function Header() {
 	return (
 		<div style={scrollable ? {}:{ position: 'fixed', top: '0', width:'100%'}}>  
 			<nav
-				style={{ backgroundColor: '#535353', borderBottom: '3px solid black', height: '55px', fontFamily: 'sans-serif' }}
+				style={{ backgroundColor: '#535353', borderBottom:'3px solid black', height: '55px'}}
 				className='d-flex justify-content-center align-items-center'
 			>
 				<div className="container-fluid d-flex justify-content-between align-items-center">

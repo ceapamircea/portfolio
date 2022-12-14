@@ -13,7 +13,7 @@
     position: fixed;
     width: 100%;
     background-color: #fff;
-    transition: .4s;
+    transition: .5s;
     overflow: hidden;
     display:flex;
     justify-content: center;
@@ -23,8 +23,8 @@
 .navbar-overlay-content{
     display: flex;
     flex-direction: column;
-    font-family: sans-serif;
-    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -39,12 +39,11 @@
 }
 .navbar-overlay-content a:focus{
     color: orangered;
-   
 }
 
 .navbar-content a{
     text-decoration: none;
-    font-family: sans-serif;
-    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.25rem;
     margin: 0px 5px;
 }

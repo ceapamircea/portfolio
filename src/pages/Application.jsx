@@ -8,9 +8,11 @@ const ApplicationContent = React.lazy(()=>import ('./ApplicationContent'));
 function Application() {
     
 	return (
-		<><Header /><Navbar applicationSelected />
+		<div>
+			<Header />
+			<Navbar applicationSelected />
 			<Suspense fallback={
-				<div className='d-flex align-items-center justify-content-center'>
+				<div className='d-flex justify-content-center'>
 					<div className='text-muted' style={{fontSize: '17px'}}>
               Loading...
 					</div>
@@ -20,7 +22,8 @@ function Application() {
 					<ApplicationContent />
 					<Footer />
 				</div>
-			</Suspense></>
+			</Suspense>
+		</div>
 	);
 }
 
