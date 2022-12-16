@@ -13,7 +13,7 @@ function Contact() {
 			<Header />
 			<div className='d-flex flex-column justify-content-center'>
 				<div className='d-flex align-items-center justify-content-start justify-content-md-center'>
-					<div className='p-2 d-flex justify-content-center flex-column align-items-start text-truncate'>
+					<div className='p-2 d-flex justify-content-center flex-column align-items-start text-truncate' style={{fontSize:'18px'}}>
 						<div>
 							<img src={locationIcon} className='px-1' style={{ width: '38px' }} alt="location-icon" /> Bucuresti, Sector 3
 						</div>

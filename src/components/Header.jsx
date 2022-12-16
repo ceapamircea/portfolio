@@ -10,12 +10,12 @@ function Header() {
 	return (
 		<div style={scrollable ? {}:{ position: 'fixed', top: '0', width:'100%'}}>  
 			<nav
-				style={{ backgroundColor: '#535353', borderBottom:'3px solid black', height: '55px'}}
+				style={{ backgroundColor: 'black', borderBottom:'3px solid black', height: '55px'}}
 				className='d-flex justify-content-center align-items-center'
 			>
 				<div className="container-fluid d-flex justify-content-between align-items-center">
 					<div className='navbar-content'>
-						<Link className="text-white" to="/">Mircea Ceapa</Link>
+						<Link className="text-white name" to="/">Mircea Ceapa</Link>
 					</div>
 					<div className='navbar-hide navbar-content'>
 						<Link className="text-white" to="/">Home</Link>

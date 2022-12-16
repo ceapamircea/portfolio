@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import './About.css';
-
+import certificate  from '../assets/certificate.jpg';
 function About() {
 	return (
 		<div className='d-flex flex-column justify-content-between about-container'>
@@ -53,7 +53,8 @@ function About() {
                                   who is addressed for?” This helps
                                   me thrive in the sphere of creation,
                                   better transpose into people’s vison,
-                                  deliver and reach the goal in my visual representations.</p>
+										deliver and reach the goal in my visual representations.</p>
+									<img src={certificate} alt="Loading" className='w-100' style={{ heigth: '85%'}}/>
 								</div>
 							</div>
 						</div>
