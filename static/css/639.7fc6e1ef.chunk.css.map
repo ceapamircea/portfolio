@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/639.7fc6e1ef.chunk.css","mappings":"AAAA,qCACC,wBACC,oBACD,CACD","sources":["pages/AplicationsContent.css"],"sourcesContent":["@media screen and (max-width: 1200px) {\r\n\t.applications img, video {\r\n\t\twidth: 100% !important;\r\n\t}\r\n}\r\n"],"names":[],"sourceRoot":""}
