@@ -7,23 +7,25 @@ function DesignContent() {
 		<div className='container'>
 			<div className='row align-items-center justify-content-center pt-2'>
 				<img
-					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
-					src='https://i.imgur.com/t8MKwzL.jpg'
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image-first-row'}
+					src='https://i.imgur.com/CzX3Yjy.jpg'
 					alt='Loading'
 					loading={'lazy'}
 				/>
 				<img
-					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
-					src='https://i.imgur.com/VtMZTYL.jpg'
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image-first-row'}
+					src='https://i.imgur.com/zMlpAWO.jpg'
 					alt='Loading'
 					loading={'lazy'}
 				/>
 				<img
-					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}
-					src='https://i.imgur.com/tbJfYuH.jpg'
+					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image-first-row'}
+					src='https://i.imgur.com/LkOG2yd.png'
 					alt='Loading'
 					loading={'lazy'}
 				/>
+
+        
         
 				<img
 					className={'col-4 p-0 m-0 m-md-1 p-md-1 design-image'}

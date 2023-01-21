@@ -1,0 +1,5 @@
+@media screen and (max-width: 1200px) {
+	.applications img, video {
+		width: 100% !important;
+	}
+}

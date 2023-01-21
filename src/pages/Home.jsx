@@ -9,7 +9,7 @@ function Home() {
 	return (
 		<div>
 			<Routes>
-				<Route path='/' exact element={<Design />} />
+				<Route path='/' exact element={<Application />} />
 				<Route path='/design' element={<Design />} />
 				<Route path='/funktastika' element={<Funktastika />} />
 				<Route path='/application' element={<Application />} />
